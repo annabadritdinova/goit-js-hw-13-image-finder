@@ -1,0 +1,37 @@
+body {
+  background-image: url('./images/bg-pattern.png');
+}
+.search-form {
+  text-align: left;
+  padding: 10px;
+}
+.search-form input {
+  font-size: 15px;
+}
+.search-form  {
+  width: 200px;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.photo-card {
+  margin: 40px;
+  width: 300px;
+}
+.stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stats-item {
+  margin-left: auto;
+  margin-right: auto;
+}
+.stats-item i {
+  display: block;
+  text-align: center;
+}
+
